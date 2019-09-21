@@ -10,6 +10,7 @@
 - Git workshop
 - Install all software necessary
 - Rough design sketch of MVP
+- Learn HTML
 
 ## Bugs
 
