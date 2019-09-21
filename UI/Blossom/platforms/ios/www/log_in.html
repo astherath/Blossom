@@ -1,0 +1,81 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="mobileui/style.css">
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="utf-8">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <style>
+            @font-face {
+                font-family: 'Amiri';
+                src: URL('Amiri.ttf') format('truetype');
+            }
+            button{
+                width: 130px;
+                height: 50px;
+                border-radius: 10px;
+            }
+            button:active {
+/*              background-color: #41713E;*/
+              transform: translateY(4px);
+            }
+            body {
+                padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
+                padding-top: env(safe-area-inset-top); /* iOS 11.2 */
+            }
+              #title {
+                font-size: 65px;
+                line-height: 24px;
+                z-index: 33;
+                position: relative;
+              }
+            #titleDiscoveryNow {
+                padding-bottom: 10px;
+            font-size: 45px;
+            line-height: 24px;
+            z-index: 33;
+            position: relative;
+          }
+        </style>
+        <title>Blossom</title>
+    </head>
+       
+<body class=" vertical-align-center align-center " style="background-image:url('img/angryimg.png')">
+  <div class="space"></div>
+  <div class="space"></div>
+  <div class="space"></div>
+  <p class="text-white">WELCOME TO</p>
+  <h1 id="titleDiscoveryNow" class="text-white">Blossom</h1>
+  <p class="text-grey-300">Find good music all the day for you</p>
+  <div class="space"></div>
+  <div class="space"></div>
+  <div class="row">
+    <div class="col-90 col-center">
+      <div class="list no-border opacity-60">
+        <div class="item icon ion-android-mail border-grey border-bottom">
+          <input class="placeholder-white text-white" type="email" placeholder="Enter your email">
+        </div>
+        <div class="item icon ion-android-lock border-grey border-bottom">
+          <input class="placeholder-white text-white" type="password" placeholder="Enter your password">
+        </div>
+      </div>
+      <div class="space"></div>
+      <div class="space"></div>
+      <button class="border-blue text-blue full">SIGN IN</button>
+    </div>
+  </div>
+  
+</body>
+      <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="mobileui/mobileui.js"></script>
+      <script type="text/javascript" src="js/index.js"></script>
+</html>
+
+
+
+
