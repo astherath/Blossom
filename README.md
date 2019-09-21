@@ -18,6 +18,18 @@ Rafa:
 - ~~App loading/splash screen (2208x2208)~~
 - Devpost thumbnail (??)
 
+#### Icons
+- Sun (full, partial, minimal, none)
+- Water droplet
+
+- Bell
+- Speech bubble
+
+##### Plants
+- Succulents
+- Cacti
+- Plant (other)
+
 ## Bugs
 
 ### Immediate
