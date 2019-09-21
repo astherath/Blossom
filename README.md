@@ -12,6 +12,12 @@
 - Rough design sketch of MVP
 - Learn HTML
 
+### Today (sept )
+Rafa:
+- App icon 
+- App loading/splash screen
+- Devpost thumbnail
+
 ## Bugs
 
 ### Immediate
