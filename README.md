@@ -15,7 +15,7 @@
 ### Today (sept )
 Rafa:
 - ~~App icon (1024x1024)~~
-- App loading/splash screen (2208x2208)
+- ~~App loading/splash screen (2208x2208)~~
 - Devpost thumbnail (??)
 
 ## Bugs
