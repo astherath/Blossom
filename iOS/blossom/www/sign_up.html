@@ -1,0 +1,44 @@
+<style>
+    .page {
+        padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
+        padding-top: env(safe-area-inset-top); /* iOS 11.2 */
+        background-image: url(img/angryimg.png);
+
+    }
+    #header-title{
+        font-size: 25px;
+        position: absolute;
+        padding-left: 46.5%;
+        padding-top: 10px;
+    }
+</style>
+
+<div class="page">
+    <div class="header white" style="padding-bottom: 50px">
+        <div class="left">
+            <button class="icon ion-android-arrow-dropleft-circle" onclick="backPage()"></button>
+        </div>
+        <div class="center">
+            <h1 id="header-title" class="title" >Sign Up</h1>
+        </div>
+    </div>
+    <div class="content has-header">
+        <div class="list">
+            <div class="item" onclick="openPage('contact', {name:'Jeanette Fletcher'}, functionOpenContact)">
+                <img class="avatar left" src="/img/33.jpg">
+                <h2>Jeanette Fletcher</h2>
+                <p>jeanette.fletcher15@example.com</p>
+            </div>
+            <div class="item" onclick="openPage('contact', {name:'Jack Oliver'}, functionOpenContact)">
+                <img class="avatar left" src="/img/53.jpg">
+                <h2>Jack Oliver</h2>
+                <p>jack.oliver@example.com</p>
+            </div>
+            <div class="item" onclick="openPage('contact', {name:'Carter hudson'}, functionOpenContact)">
+                <img class="avatar left" src="/img/96.jpg">
+                <h2>Carter hudson</h2>
+                <p>carter.hudson17@example.com</p>
+            </div>
+        </div>
+    </div>
+</div>
