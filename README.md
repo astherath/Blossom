@@ -1,39 +1,11 @@
+<div align="center">
+  <img src="logo.png">
+</div>
+
 # Blossom
+Blossom is a webview based mobile app to facilitate and revitalize the hobby of indoor gardening. Powered by a machine learning model, Blossom is built to provide accurate data on common houseplants. 
 
-## TODO
+Blossom was built with the streamlined process in mind, and minimizes the hassle that goes in between downloading the app and immediate use.
 
-### General
-- Make MVP
-- Clean up git/ write usage doc
+Keep up-to-date with release announcements and security updates by checking into this page regularly
 
-### Tonight (sept 20)
-- Git workshop
-- Install all software necessary
-- Rough design sketch of MVP
-- Learn HTML
-
-### Today (sept )
-Rafa:
-- ~~App icon (1024x1024)~~
-- ~~App loading/splash screen (2208x2208)~~
-- ~~Devpost thumbnail (??)~~
-
-Felipe:
-- Fix sign up page
-- Add single-button sign in (google/facebook)
-- Make "add plant" button in bedroom work
-	- set up firebase API for model
-	- make calls/display info from app
-	- learn how to access camera library in cordova
-
-#### Icons
-- ~~Sun (full, partial, minimal, none)~~
-- ~~Water droplet~~
-
-- ~~Bell~~
-- ~~Speech bubble~~
-
-##### Plants
-- Succulents
-- Cacti
-- Plant (other)
