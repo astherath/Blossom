@@ -1,0 +1,53 @@
+<style>
+    .page {
+        padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
+        padding-top: env(safe-area-inset-top); /* iOS 11.2 */
+        background-image: url(img/angryimg.png);
+
+    }
+
+    .card-img-top {
+        background-image: url(img/angryimg.png);
+
+    }
+
+    .card-title {
+        font-size: 30px; 
+    }
+
+</style>
+<div class="page">
+
+
+    <h1 class="title text-white" style="font-size: 40px; font-family: Futura">Home</h1>
+    <div class="space"></div>
+
+    <div class="card-group">
+        <div class="card">
+            <img src="img/test.png" class="card-img-top" onclick="openPage('bedroom')">
+            <div class="card-body">
+                <h3 class="card-title">Bedroom</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/test.png" class="card-img-top">
+            <div class="card-body">
+                <h3 class="card-title">Living Room</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/test.png" class="card-img-top">
+            <div class="card-body">
+                <h3 class="card-title">Kitchen</h3>
+            </div>
+        </div>
+        <div class="card" >
+            <img src="img/plus.png" class="card-img-top" >
+            <div class="card-body">
+                <h3 class="card-title">Add Room</h3>
+            </div>
+        </div>
+    </div>
+
+
+</div>
