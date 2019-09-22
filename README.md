@@ -4,7 +4,7 @@
 
 ### General
 - Make MVP
-- Clean up git/ write usage docs
+- Clean up git/ write usage doc
 
 ### Tonight (sept 20)
 - Git workshop

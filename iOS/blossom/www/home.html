@@ -6,7 +6,7 @@
 
     }
 
-    .card-img-top {
+    .col-md-4 {
         background-image: url(img/angryimg.png);
 
     }
@@ -19,39 +19,67 @@
 <div class="page">
 
 
-    <h1 class="title text-white" style="font-size: 40px; font-family: Futura">Home</h1>
+    <h1 class="title text-white" style="font-size: 70px; padding-top: 30px; font-family: Futura">Home</h1>
     <div class="space"></div>
 
-    <div class="card-group">
+    <div class="container py-3">
         <div class="card">
-            <img src="img/bedroom.png" class="card-img-top" onclick="openPage('bedroom')">
-            <div class="card-body">
-                <h3 class="card-title">Bedroom</h3>
-            </div>
-        </div>
-        <div class="card">
-            <img src="img/living_room.png" class="card-img-top">
-            <div class="card-body">
-                <h3 class="card-title">Living Room</h3>
-            </div>
-        </div>
-        <div class="card">
-            <img src="img/kitchen.png" class="card-img-top">
-            <div class="card-body">
-                <h3 class="card-title">Kitchen</h3>
-            </div>
-        </div>
-        <div class="card" >
-            <img src="img/plus.png" class="card-img-top" >
-            <div class="card-body">
-                <h3 class="card-title">Add Room</h3>
+            <div class="row ">
+                <div class="col-md-4">
+                    <img src="img/bedroom.png" class="w-100" style="max-height: 400px" onclick="openPage('bedroom')">
+                </div>
+                <div class="col-md-8 px-3">
+                    <div id="card-img-top" class="card-block px-3">
+                        <h4 class="title text-green-600" style="font-size: 30px;  padding-top: 10px; font-family: Futura">Bedroom</h4>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    
-    <div class="space"></div>
-    <img src="img/back.png" width="50px" height="50px"  onclick="backPage();" />
-    <div class="space"></div>
+    <div class="container py-3">
+        <div class="card">
+            <div class="row ">
+                <div class="col-md-4">
+                    <img src="img/living_room.png" class="w-100" style="max-height: 400px">
+                </div>
+                <div class="col-md-8 px-3">
+                    <div id="card-img-top" class="card-block px-3">
+                        <h4 class="title text-green-600" style= "font-size: 30px; padding-top: 10px; font-family: Futura">Living Room</h4>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </div>
+    <div class="container py-3">
+        <div class="card">
+            <div class="row ">
+                <div class="col-md-4">
+                    <img src="img/kitchen.png" class="w-100" style="max-height: 400px">
+                </div>
+                <div class="col-md-8 px-3">
+                    <div id="card-img-top" class="card-block px-3">
+                        <h4 class="title text-green-600" style= "font-size: 30px; padding-top: 10px; font-family: Futura">Kitchen</h4>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </div>
+    <div class="container py-3">
+        <div class="card">
+            <div class="row ">
+                <div class="col-md-4">
+                    <img src="img/plus.png" class="w-100" style="max-height: 400px">
+                </div>
+                <div class="col-md-8 px-3">
+                    <div id="card-img-top" class="card-block px-3">
+                        <h4 class="title text-green-600" style= "font-size: 30px; padding-top: 10px; font-family: Futura">Add Room</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
