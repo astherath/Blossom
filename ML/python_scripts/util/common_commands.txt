@@ -1,9 +1,0 @@
-plant image folder path = /Users/felipearce/go/src/github.com/astherath/autoMLtest/model_training/resources/Plant_images
-bucket name = automl-test-251018-vcm
-
-gsutil upload:
-
-gsutil -m cp -r /Users/felipearce/go/src/github.com/astherath/autoMLtest/model_training/resources/Plant_images gs://automl-test-251018-vcm/
-
-gsutil cp /Users/felipearce/go/src/github.com/astherath/autoMLtest/model_training/training_data.csv gs://automl-test-251018-vcm/
-
