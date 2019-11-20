@@ -10,13 +10,16 @@
             body {
                 padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
                 padding-top: env(safe-area-inset-top); /* iOS 11.2 */
-                background-image: url(img/angryimg.png);
+                background-image: url(img/yellow.jpg);
 
             }
             #get-started{
                 width: 130px;
                 height: 50px;
                 border-radius: 10px;
+            }
+            .page {
+                background-image: url(img/yellow.jpg);
             }
         </style>
     </head>
@@ -26,7 +29,7 @@
             <div class="header white">
 
 
-                <h1 class="title text-green-600" style= font-size: 40px; >Welcome</h1>
+                <h1  class="title text-green-300 vertical-align-center" style="font-size: 20px;" >Welcome to Blossom</h1>
 
             </div>
             <div class="space" style="padding: 30px;"></div>
@@ -46,7 +49,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/2.jpeg" alt="Second slide">
+                        <img class="d-block w-100" style= padding-top: 30px src="img/2.jpeg" alt="Second slide">
                         <div class="carousel-caption">
                             <h3>Room Screen</h3>
                             <p>A detailed view of what plants you have in your room.</p>
@@ -69,11 +72,14 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <div class="space" style="padding-bottom: 30px"></div>
+            <div class="space" style="padding-bottom: 10px"></div>
 
 
-            <button id="get-started" class="white text-green-200" onclick="openPage('home')">Get Started</button>
+            <button id="get-started" class="green-400 text-white" onclick="openPage('home')">Get Started</button>
         </div>
+        <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
 
 
 
